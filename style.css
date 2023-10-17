@@ -1,0 +1,78 @@
+body {
+    background-color: NavajoWhite;
+}
+
+.header {
+    font-size: 300%;
+    color: white;
+    text-align: center;
+    background-color: Maroon;
+    margin-right: 1%;
+    margin-left: 1%;
+    outline: 2px solid #000;
+}
+
+
+.gridcontainer {
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.title {
+    font-size: 200%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.info {
+    font-size: 200%;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    margin-left: 1%;
+}
+
+img {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 35%;
+    max-width: 30%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.imgbg {
+    outline: 2px solid #000;
+    background-color: Peru;
+}
+
+.persinfo {
+    outline: 2px solid #000;
+    text-align: left;
+    background-color: Peru;
+}
+
+.info1 {
+    outline: 2px solid #000;
+    text-align: left;
+    background-color: Maroon;
+    color: white;
+}
+
+.info2 {
+    outline: 2px solid #000;
+    text-align: left;
+    background-color: Peru;
+}
+
+.info3 {
+    outline: 2px solid #000;
+    text-align: left;
+    background-color: Maroon;
+    color: white;
+}
+
+h2 {
+    margin-left: 10%;
+}
