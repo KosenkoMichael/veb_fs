@@ -3,7 +3,7 @@ body {
 }
 
 .header {
-    font-size: 300%;
+    font-size: 3vw;
     color: white;
     text-align: center;
     background-color: Maroon;
@@ -15,11 +15,11 @@ body {
 
 .gridcontainer {
     display: grid;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 10% 45% 45%;
 }
 
 .title {
-    font-size: 200%;
+    font-size: 150%;
     display: grid;
     grid-template-columns: 50% 50%;
     margin-right: 1%;
@@ -27,17 +27,18 @@ body {
 }
 
 .info {
-    font-size: 200%;
+    font-size: 1.7vw;
     display: grid;
     grid-template-columns: repeat(3, 33%);
     margin-left: 1%;
 }
 
 img {
-    margin-top: 2%;
+    margin-top: 1%;
     margin-bottom: 2%;
-    margin-left: 35%;
-    max-width: 30%;
+    margin-left: 30%;
+    object-fit: fill;
+    max-width: 30%; 
     height: auto;
     border-radius: 20px;
 }
@@ -49,11 +50,13 @@ img {
 
 .persinfo {
     outline: 2px solid #000;
+    font-size: 1.7vw;
     text-align: left;
     background-color: Peru;
 }
 
 .info1 {
+    font-size: 1.7vw;
     outline: 2px solid #000;
     text-align: left;
     background-color: Maroon;
@@ -61,12 +64,14 @@ img {
 }
 
 .info2 {
+    font-size: 1.7vw;
     outline: 2px solid #000;
     text-align: left;
     background-color: Peru;
 }
 
 .info3 {
+    font-size: 1.7vw;
     outline: 2px solid #000;
     text-align: left;
     background-color: Maroon;
