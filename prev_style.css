@@ -1,0 +1,65 @@
+.prev_body {
+    background-image: url("img/prev_body.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+img {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 30%;
+    object-fit: fill;
+    max-width: 30%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.prev_container {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 10%;
+    grid-template-areas:
+        "element_4 element_5 element_6"
+        "element_1 element_2 element_3"
+        "element_7 element_8 element_9";
+}
+
+.element_1 {
+    grid-area: element_1;
+    font-size: 1.7vw;
+    text-align: left;
+    background-color: initial;
+    color: white;
+}
+
+.element_2 {
+    grid-area: element_2;
+    font-size: 1.7vw;
+    text-align: left;
+    background-color: initial;
+}
+
+.element_3 {
+    grid-area: element_3;
+    font-size: 1.7vw;
+    text-align: left;
+    background-color: initial;
+    color: white;
+}
+
+a {
+    color: rgb(10, 255, 243);
+    text-decoration: none;
+    font-size: 1.7vw;
+}
+
+a:hover {
+    color: white;
+}
+
+.href_1 {
+    text-align: center;
+}
