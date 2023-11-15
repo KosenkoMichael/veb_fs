@@ -5,33 +5,29 @@
 img {
     margin-top: 1%;
     margin-bottom: 2%;
-    margin-left: 30%;
+    margin-left: 35%;
     object-fit: fill;
-    max-width: 50%;
+    max-width: 30%;
     height: auto;
     border-radius: 20px;
+    border: 1px solid maroon;
 }
 
 .next_container {
-    display: grid; 
-    grid-auto-columns: 1fr; 
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
-    grid-template-rows: 0.2fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr; 
+    display: grid;  
+    grid-template-columns:0.5fr 0.5fr 0.5fr; 
+    grid-template-rows: 0.2fr 0.01fr 0.01fr 0.01fr; 
     gap: 0px 0px; 
     grid-template-areas: 
-      ". . title title title . ."
-      ". . . . . . ."
-      ". pos_1 . pos_2 . pos_3 ."
-      ". . . . . . ."
-      ". pos_4 . pos_5 . pos_6 ."
-      ". . . . . . ."
-      ". pos_7 . pos_8 . pos_9 ."
-      ". . . . . . ."; 
+      "title title title"
+      "pos_1 pos_2 pos_3"
+      "pos_4 pos_5 pos_6"
+      "pos_7 pos_8 pos_9"
   }
   .pos_1 {
     display: grid; 
     grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr 1fr; 
+    grid-template-rows: 70% 10%; 
     gap: 0px 0px; 
     grid-template-areas: 
       "img_1 img_1"
@@ -43,7 +39,7 @@ img {
   .pos_2 {
     display: grid; 
     grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr 1fr; 
+    grid-template-rows: 70% 10%; 
     gap: 0px 0px; 
     grid-template-areas: 
       "img_2 img_2"
@@ -55,7 +51,7 @@ img {
   .pos_3 {
     display: grid; 
     grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr 1fr; 
+    grid-template-rows: 70% 10%;  
     gap: 0px 0px; 
     grid-template-areas: 
       "img_3 img_3"
@@ -67,7 +63,7 @@ img {
   .pos_4 {
     display: grid; 
     grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr 1fr; 
+    grid-template-rows: 70% 10%; 
     gap: 0px 0px; 
     grid-template-areas: 
       "img_4 img_4"
@@ -79,7 +75,7 @@ img {
   .pos_5 {
     display: grid; 
     grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr 1fr; 
+    grid-template-rows: 70% 10%; 
     gap: 0px 0px; 
     grid-template-areas: 
       "img_5 img_5"
@@ -91,7 +87,7 @@ img {
   .pos_6 {
     display: grid; 
     grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr 1fr; 
+    grid-template-rows: 70% 10%; 
     gap: 0px 0px; 
     grid-template-areas: 
       "img_6 img_6"
@@ -104,7 +100,7 @@ img {
   .pos_7 {
     display: grid; 
     grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr 1fr; 
+    grid-template-rows: 70% 10%; 
     gap: 0px 0px; 
     grid-template-areas: 
       "img_7 img_7"
@@ -116,7 +112,7 @@ img {
   .pos_8 {
     display: grid; 
     grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr 1fr; 
+    grid-template-rows: 70% 10%; 
     gap: 0px 0px; 
     grid-template-areas: 
       "img_8 img_8"
@@ -128,7 +124,7 @@ img {
   .pos_9 {
     display: grid; 
     grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr 1fr; 
+    grid-template-rows: 70% 10%; 
     gap: 0px 0px; 
     grid-template-areas: 
       "img_9 img_9"
@@ -146,6 +142,6 @@ img {
   }
 
   h1{
-    font-size: 1.7vw;
+    font-size: 3vw;
     color:Maroon;
   }
